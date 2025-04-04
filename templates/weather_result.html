@@ -18,6 +18,8 @@
         <p>City: {{ weather_info.city }}</p>
         <p>Temperature: {{ weather_info.temperature }}°F</p>
         <p>Description: {{ weather_info.description }}</p>
+
+        <button onclick="window.location.href='/'">Choose Another City</button>
         {% else %}
         <p>⚠️ Error: Could not retrieve weather data. Please try again later.</p>
         {% endif %}
